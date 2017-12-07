@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>To-Do List</title>
-</head>
-<body>
-  <h1>Champion of the Tasks!</h1>
-  	<div class="toDoListBox">
-  		<ul class="toDoList">
-  			<li></li>
-  			<li></li>
-  			<li></li>
-  		</ul>
-  	</div>
-  	<div>
-  		<input type="text" name="newItem">Another Task</input>
-  		<button>Add to the list</button>
-  	</div>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Champion of the tasks</h2>
+          <p><em>Click and drag to rearrange list, double click to delete an item.</em></p>
+      <form name="toDoList">
+          <input type="text" name="ListItem"/>
+        </form> 
+      <div id="button">Add</div>
+        <br/>
+        <ol></ol>
+    </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/list.js"></script>
+  </body>
 </html>
+
+<!-- Is my indentation above correct? -->
